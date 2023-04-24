@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Web</title>
+</head>
+<body>
+  <a href="#sobre-mim">(futuro) Dev Junior - Desenvolvimento web - Full Stack</a> <br><br>
+  <a >Meu linkedin: </a>
+  <a href="#pagina">https://www.linkedin.com/in/eduardo-neris-carneiro-858782246/</a>
+  <h1 class="meuNome">Eduardo Neris Carneiro</h1>
+  <img src="https://media.licdn.com/dms/image/C4D03AQHiLuDB7tpvAA/profile-displayphoto-shrink_800_800/0/1659984129739?e=1687996800&v=beta&t=iMnHFpa9yp4JjEtgcPJETUAGDsDRlF5EyDKmmCwQdow" alt="foto eduardo" width="200px" id="foto">
+  <p class="descricao">Estudante <strong><em>Futuru Dev</em></strong>, Buscando melhorar e aprender. com monitores e amigos da Trybe</p>
+  <p class="resido"><strong>Presidente Prudente - SP</strong></p>
+  <h2>Lista de habilidades</h2>
+  <ul>
+    <li class="javascript">Javascript</li>
+    <li class="sql">SQL</li>
+    <li class="react">React</li>
+    <li class="bootstrap">Bootstrap</li>
+    <li class="metoAgil">Metodologias ágeis</li>
+  </ul>
+  <a href="#minha-foto">Minha foto</a>
+  <a href="https://blog.betrybe.com/carreira/frontend/" target="_blank">Artigo legal</a>
+</body>
+</html>
