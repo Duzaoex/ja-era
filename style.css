@@ -1,6 +1,7 @@
-<style>
+
+
 body {
-  background-color: rgb(5, 5, 4);
+  background-color: rgb(5, 5, 2);
 }
 
 .meuNome, .descricao {
@@ -38,4 +39,3 @@ em {
 .metoAgil {
   font-size: 12px;
 }
-</style>
