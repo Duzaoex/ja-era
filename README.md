@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+  <title>Portfólio Web</title>
+
 <style>
 
 body {
   background-color: rgb(5, 5, 2);
+  color: yellow;
 }
 
 .meuNome, .descricao {
@@ -17,10 +19,6 @@ body {
 
 h2 {
   color: red;
-}
-
-body {
-  color: yellow;
 }
 
 em {
@@ -47,7 +45,6 @@ em {
   font-size: 12px;
 }
 </style>
-
 </head>
 <body>
   <a href="#sobre-mim">(futuro) Dev Junior - Desenvolvimento web - Full Stack</a> <br><br>
