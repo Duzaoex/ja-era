@@ -6,53 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Web</title>
 
-  <style>
-    body {
-      background-color: rgb(5, 5, 4);
-    }
-
-    .meuNome, .descricao {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    h2 {
-      color: red;
-    }
-
-    body {
-      color: yellow;
-    }
-
-    em {
-      color: rgb(7, 45648, 3);
-    }
-
-    .javascript {
-      font-size: 20px;
-    }
-
-    .sql {
-      font-size: 18px;
-    }
-
-    .react {
-      font-size: 16px;
-    }
-
-    .bootstrap {
-      font-size: 14px;
-    }
-
-    .metoAgil {
-      font-size: 12px;
-    }
-  </style>
+<link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
   <a href="#sobre-mim">(futuro) Dev Junior - Desenvolvimento web - Full Stack</a> <br><br>
   <a >Meu linkedin: </a>
-  <a href="#pagina">https://www.linkedin.com/in/eduardo-neris-carneiro-858782246/</a> <b> <b>
+  <a href="#pagina">https://www.linkedin.com/in/eduardo-neris-carneiro-858782246/</a>
   <h1 class="meuNome">Eduardo Neris Carneiro</h1>
   <img src="https://media.licdn.com/dms/image/C4D03AQHiLuDB7tpvAA/profile-displayphoto-shrink_800_800/0/1659984129739?e=1687996800&v=beta&t=iMnHFpa9yp4JjEtgcPJETUAGDsDRlF5EyDKmmCwQdow" alt="foto eduardo" width="200px" id="foto">
   <p class="descricao">Estudante <strong><em>Futuru Dev</em></strong>, Buscando melhorar e aprender. com monitores e amigos da Trybe</p>
