@@ -59,3 +59,72 @@ body {
   background-color: #676767;
 }
 
+/* Estilos comuns para todos os dispositivos */
+
+/* Estilos para dispositivos com largura de tela até 600px (celulares) */
+@media (max-width: 600px) {
+  /* Estilos específicos para celulares */
+  body {
+    font-size: 14px;
+  }
+  
+  #minha_foto {
+    width: 150px;
+  }
+  
+  .project-list {
+    text-align: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  body {
+    font-size: 16px;
+  }
+  
+  #minha_foto {
+    width: 180px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+  
+  #minha_foto {
+    width: 200px;
+  }
+}
+
+#minha_foto {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.tech-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-list li {
+  margin-bottom: 10px;
+  margin-right: 20px; /* Adiciona um espaçamento horizontal entre os itens */
+}
+
+.tech-list li:before {
+  content: "\2022";
+  color: #0077B5;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#tech-title {
+  text-align: center;
+}

@@ -1,3 +1,4 @@
-const linkedin = document.getElementById('linkedin');
-linkedin.style.color = 'black';
-linkedin.style.textAlign = 'center';
+document.addEventListener("DOMContentLoaded", function() {
+    var portfolioTitle = document.getElementById("portfolio-title");
+    portfolioTitle.textContent = "Meus Portfólios";
+});
