@@ -1,57 +1,61 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+}
+
 body {
-  background-color: rgb(211, 211, 211);
-}
-
-#titulo {
-  font-family: Courier New, Courier, monospace;
-  font-size: 50px;
+  background-color: rgb(179, 177, 175);
   text-align: center;
-  color: rgb(73, 73, 73); 
-  background-color: rgb(139, 139, 139);
 }
-
-#minha_foto {
-  margin-left: 800px;  
-  padding: 10px;  
-  background-color: rgb(121, 121, 121);
-}
-
-#linkedin {
-  margin-left: 860px;
-}
-
-#licoes_aprendidas {  
+#linkedin_button {
   display: inline-block;
-  width: 6%;
-  height: 170px;
-  border: 2px solid black;
-  padding: 30px;
-  margin-left: 680px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-#licoes_a_aprender {  
-  display: inline-block;
-  width: 6%;
-  height: 170px;
-  border: 2px solid black;
-  padding: 30px;
-  margin-left: 100px;
+#linkedin_button:hover {
+  background-color: #393939;
 }
 
-.lado-esquerdo {
-  text-align: justify;
-  width: 90%;
-  height: 40px;
-  border: 2px solid black;
-  padding: 10px;
-  margin-left: 80px;
-  display: inline-block;
+.empolgado-box {
+  border: 2px solid #000;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
 }
 
-#frase {
+.empolgado-box p {
+  font-size: 18px;
   text-align: center;
 }
 
-#rodape {
+.project-list {
+  list-style-type: none;
+  padding: 0;
   text-align: center;
 }
+
+.project-list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-link:hover {
+  background-color: #676767;
+}
+
