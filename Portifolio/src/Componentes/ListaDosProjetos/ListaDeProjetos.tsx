@@ -7,7 +7,7 @@ export const listaDosProjetos = [
 
     {
         titulo: 'a',
-        descricao: 'a',
-        link: 'a',
+        descricao: 'aas',
+        link: 'aa',
     },
 ];
