@@ -1,3 +1,6 @@
+
+import style from './projetos.module.css';
+
 type ProjetosProps = {
     projetos: {
         titulo: string,
@@ -8,15 +11,14 @@ type ProjetosProps = {
 
 function ListaProjetos({ projetos }: ProjetosProps) {
     return (
-        <>
-            <div>
-                <h2>Titulo</h2>{projetos.titulo}
-                <p>Descricao</p>{projetos.descricao}
-                <br></br><a href={projetos.link} target="_blank" rel="noopener noreferrer">
-                    Link do Projeto iChoveu
-                </a>
-            </div>
-        </>
+            <div className={style.caixaProjetos}>
+            <h2 className={style.titulo}>{projetos.titulo}</h2>
+            <p>Descrição: {projetos.descricao}</p>
+            <a href={projetos.link} target="_blank" rel="noopener noreferrer">
+                Link do Projeto: {projetos.titulo}
+            </a>
+        </div>
     )
 }
+
 export default ListaProjetos;
