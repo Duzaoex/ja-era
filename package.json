@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://duzaoex.github.io/portifolio",
+  "homepage": "https://duzaoex.github.io",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
