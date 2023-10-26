@@ -1,0 +1,18 @@
+.header {
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    justify-content: flex-end;
+    text-align: center;
+    width: 100vw;
+}
+
+.logo {
+    height: 8vh;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 5vw;
+}

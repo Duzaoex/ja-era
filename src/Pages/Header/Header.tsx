@@ -1,11 +1,12 @@
 import style from './Header.module.css';
+import logo from '../../util/images/logoTransparent.png';
 
 function Header() {
     return (
         <>
             <header className={style.header}>
                 <h1>Portfólio</h1>
-                <h2>Eduardo Neris Carneiro</h2>
+                <img className={style.logo} src={logo} alt="logo"></img>
             </header>
         </>
     )
