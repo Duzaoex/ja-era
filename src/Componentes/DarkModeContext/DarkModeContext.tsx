@@ -5,7 +5,7 @@ type DarkModeContextType = {
     setTheme: (theme: string) => void;
 };
 
-const DarkModeContext = createContext<DarkModeContextType | undefined>(undefined);
+export const DarkModeContext = createContext<DarkModeContextType | undefined>(undefined);
 
 type DarkModeProviderProps = {
     children: ReactNode;

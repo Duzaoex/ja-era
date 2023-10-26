@@ -1,4 +1,58 @@
-body {
+/* Home.module.css */
+
+.body {
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.logoNome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+.li {
+    color: yellow;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #feffab, #eeff00);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+li:hover::before {
+    transform: scaleX(1);
+}
+
+li:hover a {
+    color: rgb(196, 196, 0);
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.nav {
+    border: 2px solid yellow;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
