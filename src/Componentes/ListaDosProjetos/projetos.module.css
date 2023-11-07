@@ -1,5 +1,10 @@
 .caixaProjetos {
-    background-color: aliceblue;
+    border: 2px solid yellow;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    width: 30vw;
 }
 
 .titulo {

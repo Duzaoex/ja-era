@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type DarkModeContextType = {
-    theme: string; // Adicione a propriedade 'theme' de tipo string
+    theme: string;
     setTheme: (theme: string) => void;
 };
 

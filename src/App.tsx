@@ -4,7 +4,7 @@ import { DarkModeProvider, useDarkMode } from './Componentes/DarkModeContext/Dar
 import HomePage from './Pages/HomePage/HomePage';
 import Projetos from './Pages/Projetos/Projetos';
 import SobreMim from './Pages/SobreMim/SobreMim';
-import './App.css'; // Certifique-se de importar seu arquivo CSS aqui
+import style from './App.module.css'; // Importe o arquivo de módulo CSS
 
 function App() {
   const { theme, setTheme } = useDarkMode();
@@ -19,8 +19,8 @@ function App() {
   };
 
   return (
-    <div className={`App ${theme}`}>
-      <button onClick={toggleDarkMode}>
+    <div className={`${style.App} ${style[theme]}`}> {/* Use as classes do módulo CSS */}
+      <button className={style.button} onClick={toggleDarkMode}>
         {theme === 'dark' ? 'Modo Claro' : 'Modo Escuro'}
       </button>
       <Routes>

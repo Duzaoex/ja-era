@@ -1,0 +1,38 @@
+.header {
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #fbff00;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navLink:hover {
+    color: #a4a702;
+}
