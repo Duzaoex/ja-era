@@ -26,7 +26,7 @@ function SobreMim() {
                             me destacar nesse campo em constante evolução. "
                         </h2>
                         <h2 className={style.h2}>
-                            " Minha paixão pela tecnologia e pelo desenvolvimento web me
+                            " Meu interesse pela tecnologia e pelo desenvolvimento web me
                             leva a aprender constantemente. E o comprometimento, ao mundo do desenvolvimento web, contribuindo para projetos
                             incríveis e inovadores. "
                         </h2>
