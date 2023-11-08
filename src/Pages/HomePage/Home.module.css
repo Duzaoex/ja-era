@@ -8,64 +8,72 @@ body {
     height: 100%;
 }
 
-.footer {
-    margin-top: auto;
-    text-align: center;
-    margin-bottom: 100px;
+.buttonStyle {
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    margin-right: 100px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.imagem {
-    display: flex;
-    justify-content: center;
-}
-
-.logoNome {
-    margin-top: 150px;
-    background-color: yellow;
-    border-radius: 25px;
-    width: 500px;
-    height: 300px;
-    margin-bottom: 100px;
-}
-
-.li {
-    color: yellow;
-    margin-right: 50px;
-    font-size: 20px;
-}
-
-li::before {
-    content: '';
+.buttonStyle::after {
+    content: "";
     position: absolute;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(45deg, #feffab, #eeff00);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease-in-out;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #333;
+    transition: 0.5s;
+    transform-origin: center;
 }
 
-li:hover::before {
-    transform: scaleX(1);
+.buttonStyle::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #333;
+    transition: 0.5s;
 }
 
-li:hover a {
-    color: rgb(196, 196, 0);
+button:hover::before,
+button:hover::after {
+    transform: scale(0)
+}
+
+button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
 }
 
 .ul {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    justify-content: flex-end;
 }
 
-.nav {
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
+nav a {
+    text-decoration: none;
+    color: #149CEA;
+}
 
 @media screen and (max-width: 416px) and (max-height: 898px) {
     .body {
@@ -73,55 +81,65 @@ li:hover a {
         flex-direction: column;
     }
 
-    .footer {
-        margin-top: auto;
+    .buttonStyle {
+        width: 10em;
+        position: relative;
+        height: 3.5em;
+        border: 3px ridge #149CEA;
+        outline: none;
+        background-color: transparent;
+        transition: 1s;
+        border-radius: 0.3em;
+        font-size: 16px;
+        margin-right: 100px;
+        font-weight: bold;
+        cursor: pointer;
     }
 
-    .logoNome {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 70px;
-        background-color: yellow;
-        border-radius: 25px;
-        width: 80%;
-    }
-
-    .li {
-        color: yellow;
-        margin-right: 50px;
-        font-size: 30px;
-        margin-top: 30px;
-    }
-
-    li::before {
-        content: '';
+    .buttonStyle::after {
+        content: "";
         position: absolute;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(45deg, #feffab, #eeff00);
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.3s ease-in-out;
+        top: -10px;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #333;
+        transition: 0.5s;
+        transform-origin: center;
     }
 
-    li:hover::before {
-        transform: scaleX(1);
+    .buttonStyle::before {
+        content: "";
+        transform-origin: center;
+        position: absolute;
+        top: 80%;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #333;
+        transition: 0.5s;
     }
 
-    li:hover a {
-        color: rgb(196, 196, 0);
+    button:hover::before,
+    button:hover::after {
+        transform: scale(0)
+    }
+
+    button:hover {
+        box-shadow: inset 0px 0px 25px #1479EA;
     }
 
     .ul {
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-        padding: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 
-    .nav {
-        width: 100%;
-        justify-content: flex-start;
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 }

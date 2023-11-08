@@ -1,20 +1,18 @@
 import { NavLink } from 'react-router-dom';
 import style from './Sobremim.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 
 function SobreMim() {
     return (
         <body>
+            <nav className={style.nav}>
+                <button className={style.buttonStyle}>
+                    <NavLink to="/" >Home</NavLink>
+                </button>
+            </nav>
             <header className={style.header}>
                 <h1 className={style.title}>Sobre mim</h1>
             </header>
-            <nav className={style.nav}>
-                <NavLink to="/" className={style.navLink}>
-                    <FontAwesomeIcon icon={faArrowLeft} /> Home
-                </NavLink>
-            </nav>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <div className={style.textContainer}>
