@@ -3,13 +3,12 @@ import { DarkModeProvider, useDarkMode } from './Componentes/DarkModeContext/Dar
 import HomePage from './Pages/HomePage/HomePage';
 import Projetos from './Pages/Projetos/Projetos';
 import SobreMim from './Pages/SobreMim/SobreMim';
-import style from './App.module.css'; // Importe o arquivo de módulo CSS
+import style from './App.module.css';
 
 function App() {
   const { theme, setTheme } = useDarkMode();
 
   const toggleDarkMode = () => {
-    // Alternar entre 'dark' e 'light'
     if (theme === 'dark') {
       setTheme('light');
     } else {
@@ -18,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className={`${style.App} ${style[theme]}`}> {/* Use as classes do módulo CSS */}
+    <div className={`${style.App} ${style[theme]}`}>
       <button className={style.button} onClick={toggleDarkMode}>
         {theme === 'dark' ? 'Modo Claro' : 'Modo Escuro'}
       </button>
