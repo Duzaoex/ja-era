@@ -23,4 +23,5 @@ export const listaDosProjetos = [
         descricao: 'FRONTEND - Aplicação em React para gerenciar senha',
         link: 'https://github.com/Duzaoex/Projetos/tree/main/Projeto%20Password%20Manager',
     },
+
 ];
