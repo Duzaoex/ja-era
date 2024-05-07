@@ -21,7 +21,7 @@ function HomePage() {
       <div>
         <BemVindo />
       </div>
-      <footer className={style.footer}>Copyright © 2024 Eduardo Neris Carneiro</footer>
+      <footer className={style.footer}>Copyright© 2024 Eduardo Neris Carneiro</footer>
     </>
   )
 }
