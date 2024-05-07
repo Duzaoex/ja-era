@@ -30,7 +30,6 @@ body {
     left: 3%;
     width: 95%;
     height: 40%;
-    background-color: #333;
     transition: 0.5s;
     transform-origin: center;
 }
@@ -43,7 +42,6 @@ body {
     left: 3%;
     width: 95%;
     height: 40%;
-    background-color: #333;
     transition: 0.5s;
 }
 
@@ -82,16 +80,17 @@ nav a {
     }
 
     .buttonStyle {
-        width: 10em;
-        position: relative;
-        height: 3.5em;
+        border-left: 10px;
+        border-right: 10px;
+        width: 100%; 
+        height: auto; 
+        margin: 10px 0; 
         border: 3px ridge #149CEA;
         outline: none;
         background-color: transparent;
         transition: 1s;
         border-radius: 0.3em;
-        font-size: 16px;
-        margin-right: 100px;
+        font-size: 12px;
         font-weight: bold;
         cursor: pointer;
     }
@@ -103,7 +102,6 @@ nav a {
         left: 3%;
         width: 95%;
         height: 40%;
-        background-color: #333;
         transition: 0.5s;
         transform-origin: center;
     }
@@ -116,7 +114,6 @@ nav a {
         left: 3%;
         width: 95%;
         height: 40%;
-        background-color: #333;
         transition: 0.5s;
     }
 

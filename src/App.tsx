@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { DarkModeProvider, useDarkMode } from './Componentes/DarkModeContext/DarkModeContext';
 import HomePage from './Pages/HomePage/HomePage';
@@ -16,8 +17,17 @@ function App() {
     }
   };
 
+  // Adiciona ou remove a classe 'dark' do elemento body com base no tema
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }, [theme]);
+
   return (
-    <div className={`${style.App} ${style[theme]}`}>
+    <body className={`${style.App} ${style[theme]}`}>
       <button className={style.button} onClick={toggleDarkMode}>
         {theme === 'dark' ? 'Modo Claro' : 'Modo Escuro'}
       </button>
@@ -26,7 +36,7 @@ function App() {
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/SobreMim" element={<SobreMim />} />
       </Routes>
-    </div>
+    </body>
   );
 }
 

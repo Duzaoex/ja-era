@@ -10,3 +10,16 @@
 .titulo {
     font-size: 30px;
 }
+
+@media screen and (max-width: 416px) and (max-height: 898px) {
+    .caixaProjetos {
+        border: 2px solid #149CEA;
+        margin: 20px; /* Margem uniforme de 20px */
+        padding: 20px; /* Padding reduzido para 20px */
+        width: 80%; /* Largura ajustada para ocupar 80% da largura da tela */
+    }
+
+    .titulo {
+        font-size: 24px; /* Reduzido o tamanho da fonte para 24px */
+    }
+}
