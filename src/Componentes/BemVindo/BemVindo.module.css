@@ -91,40 +91,40 @@ a {
 
 @media screen and (max-width: 416px) and (max-height: 898px) {
     .cardContainer {
-        flex-direction: column; /* Altera a direção da flexbox para coluna */
-        align-items: center; /* Centraliza os itens na coluna */
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
-        margin: 20px; /* Reduz a margem para 20px */
+        margin: 20px;
     }
 
     .textContainer {
-        max-width: 80%; /* Reduz a largura máxima para 80% */
-        margin-top: 50px; /* Adiciona margem superior de 50px */
+        max-width: 80%;
+        margin-top: 50px;
     }
 
     h1 {
-        font-size: 40px; /* Reduz o tamanho da fonte para 40px */
-        margin-top: 50px; /* Reduz a margem superior para 50px */
+        font-size: 40px;
+        margin-top: 50px;
         margin-left: 30px;
     }
 
     h2 {
-        font-size: 14px; /* Reduz o tamanho da fonte para 14px */
-        margin-top: 30px; /* Reduz a margem superior para 30px */
-        margin-bottom: 30px; /* Reduz a margem inferior para 30px */
-        text-align: center; /* Centraliza o texto */
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
     }
 
     .buttonA {
-        width: 100%; /* Define a largura para 100% para ocupar todo o espaço disponível */
-        margin: 20px 0; /* Adiciona margem superior e inferior de 20px */
-        font-size: 14px; /* Reduz o tamanho da fonte para 14px */
-        margin-right: 0; /* Remove a margem direita */
+        width: 100%;
+        margin: 20px 0;
+        font-size: 14px;
+        margin-right: 0;
     }
 
     .divA {
-        margin-top: 50px; /* Reduz a margem superior para 50px */
+        margin-top: 50px;
     }
 }

@@ -106,7 +106,7 @@ a {
         text-decoration: none;
         color: #fbff00;
         font-weight: bold;
-        font-size: 20px; /* Reduzido o tamanho da fonte */
+        font-size: 20px;
         margin: 0 10px;
         transition: color 0.3s;
     }
@@ -120,7 +120,7 @@ a {
         flex-direction: column;
         align-items: center;
         height: 100vh;
-        margin-right: 10px; /* Reduzido o espaçamento à direita */
-        margin-left: 10px; /* Adicionado espaçamento à esquerda */
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }

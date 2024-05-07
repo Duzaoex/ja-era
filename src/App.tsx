@@ -17,7 +17,6 @@ function App() {
     }
   };
 
-  // Adiciona ou remove a classe 'dark' do elemento body com base no tema
   useEffect(() => {
     if (theme === 'dark') {
       document.body.classList.add('dark');
