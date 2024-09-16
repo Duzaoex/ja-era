@@ -1,0 +1,15 @@
+.sobreMim {
+    text-align: center;
+    /* Centraliza o texto */
+    color: #fff;
+    background-color: #000;
+}
+
+.sobreMim h1 {
+    font-size: 3rem;
+    color: #ff8c00;
+}
+
+.sobreMim p {
+    font-size: 1.2rem;
+}

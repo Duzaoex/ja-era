@@ -1,0 +1,37 @@
+.contato {
+    background-color: #343A40;
+    color: #fff;
+    text-align: center;
+}
+
+.fc {
+    font-size: 50px;
+}
+
+.contactInfo p {
+    margin: 10px 0;
+}
+
+.socialIcon {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff6600;
+    /* Cor laranja */
+    transition: color 0.3s;
+    margin: 0 10px;
+}
+
+.socialIcon:hover {
+    color: #cc5200;
+    /* Laranja mais escuro para hover */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    /* Usa a cor definida no CSS */
+}
