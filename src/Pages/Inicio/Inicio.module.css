@@ -35,7 +35,7 @@
 
 .inicio h1 {
     font-size: 2rem;
-    color: #ff8c00;
+    color: #C23011;
     margin-bottom: 50px;
 }
 
@@ -46,7 +46,7 @@
     /* Impede que o texto quebre em múltiplas linhas */
     overflow: hidden;
     /* Esconde o texto que ultrapassa o contêiner */
-    border-right: .15em solid #ff8c00;
+    border-right: .15em solid #C23011;
     /* Adiciona um cursor de texto piscante */
     animation: typing 4s steps(30, end), blink-caret .75s step-end infinite;
     /* Define as animações de digitação e piscar do cursor */
@@ -70,6 +70,6 @@
     }
 
     50% {
-        border-color: #ff8c00;
+        border-color: #C23011;
     }
 }

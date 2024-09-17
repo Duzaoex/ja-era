@@ -20,7 +20,7 @@
     width: 150px;
     height: 150px;
     object-fit: cover;
-    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.6);
+    box-shadow: 0 4px 8px #C23011;
     /* Sombra laranja */
 }
 
@@ -49,13 +49,13 @@
 }
 
 .navItem:hover {
-    background-color: #ff8c00;
+    background-color: #C23011;
     /* Cor de fundo ao passar o mouse */
     color: #000;
 }
 
 .whatsappButton {
-    background-color: #ff6600;
+    background-color: #C23011;
     /* Cor de fundo laranja */
     color: #fff;
     /* Cor do texto branca */
@@ -66,12 +66,12 @@
 }
 
 .whatsappButton:hover {
-    background-color: #cc5200;
+    background-color: #C23011;
     /* Cor de fundo laranja mais escuro ao passar o mouse */
 }
 
 .navItem2 {
-    color: #ff8c00;
+    color: #C23011;
     text-decoration: none;
     margin: 10px 0;
     padding: 10px;
@@ -82,6 +82,6 @@
 }
 
 .navItem2:hover {
-    background-color: #ff8c00;
+    background-color: #C23011;
     color: #000;
 }
