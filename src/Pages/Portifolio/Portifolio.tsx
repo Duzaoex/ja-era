@@ -16,7 +16,6 @@ const Portifolio: React.FC = () => {
                     <h2>Projeto 2</h2>
                     <p>Descrição do projeto 2. Outro projeto interessante com detalhes e funcionalidades únicas.</p>
                 </div>
-                {/* Adicione mais projetos conforme necessário */}
             </div>
         </section>
     );
