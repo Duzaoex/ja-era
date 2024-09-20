@@ -26,25 +26,25 @@ const Portifolio: React.FC = () => {
                     <h2 className={style.h2}>Site - Consultoria Online</h2>
                     <Slider {...settings} className={style.slider}>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-14-47.png" alt="Projeto 1 - Imagem 1" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-14-47.png" alt="Projeto 1 - Imagem 1" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-14-53.png" alt="Projeto 1 - Imagem 2" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-14-53.png" alt="Projeto 1 - Imagem 2" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-14-56.png" alt="Projeto 1 - Imagem 3" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-14-56.png" alt="Projeto 1 - Imagem 3" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-15-00.png" alt="Projeto 1 - Imagem 4" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-15-00.png" alt="Projeto 1 - Imagem 4" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-15-04.png" alt="Projeto 1 - Imagem 5" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-15-04.png" alt="Projeto 1 - Imagem 5" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-15-08.png" alt="Projeto 1 - Imagem 6" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-15-08.png" alt="Projeto 1 - Imagem 6" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/bodao/Captura de tela de 2024-09-19 13-15-11.png" alt="Projeto 1 - Imagem 7" className={style.projectImage} />
+                            <img src="public/portifolio/bodao/Captura de tela de 2024-09-19 13-15-11.png" alt="Projeto 1 - Imagem 7" className={style.projectImage} />
                         </div>
                     </Slider>
                     <p>Projeto para consultoria online de treinamento, para um Personal Trainer</p>
@@ -55,16 +55,16 @@ const Portifolio: React.FC = () => {
                     <h2>Site - Psicologa</h2>
                     <Slider {...settings} className={style.slider}>
                         <div>
-                            <img src="src/util/images/portifolio/leticia/Captura de tela de 2024-09-19 12-52-17.png" alt="Projeto 2 - Imagem 1" className={style.projectImage} />
+                            <img src="public/portifolio/leticia/Captura de tela de 2024-09-19 12-52-17.png" alt="Projeto 2 - Imagem 1" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/leticia/Captura de tela de 2024-09-19 12-52-28.png" alt="Projeto 2 - Imagem 2" className={style.projectImage} />
+                            <img src="public/portifolio/leticia/Captura de tela de 2024-09-19 12-52-28.png" alt="Projeto 2 - Imagem 2" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/leticia/Captura de tela de 2024-09-19 12-52-35.png" alt="Projeto 2 - Imagem 3" className={style.projectImage} />
+                            <img src="public/portifolio/leticia/Captura de tela de 2024-09-19 12-52-35.png" alt="Projeto 2 - Imagem 3" className={style.projectImage} />
                         </div>
                         <div>
-                            <img src="src/util/images/portifolio/leticia/Captura de tela de 2024-09-19 12-52-49.png" alt="Projeto 2 - Imagem 4" className={style.projectImage} />
+                            <img src="public/portifolio/leticia/Captura de tela de 2024-09-19 12-52-49.png" alt="Projeto 2 - Imagem 4" className={style.projectImage} />
                         </div>
                     </Slider>
                     <p>Projeto para Psicologa.</p>
